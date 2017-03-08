@@ -17,5 +17,6 @@
   },
   "homepage": "https://github.com/NeedfulSoftware/HelloWorld#readme",
   "dependencies": {
+    "hapi": "^16.1.0"
   }
 }
