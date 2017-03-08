@@ -1,0 +1,22 @@
+{
+  "name": "hapiportforwardingproxy",
+  "version": "1.0.0",
+  "description": "Example of a hapi proxy that does port forwarding",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeedfulSoftware/hapiTutorials"
+  },
+  "author": "Xavier Leclercq <xavier.leclercq@needfulsoftware.com> (https://www.needfulsoftware.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NeedfulSoftware/hapiTutorials/issues"
+  },
+  "homepage": "https://github.com/NeedfulSoftware/PortForwardingProxy#readme",
+  "dependencies": {
+    "hapi": "^16.1.0"
+  }
+}
