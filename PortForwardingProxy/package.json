@@ -15,8 +15,9 @@
   "bugs": {
     "url": "https://github.com/NeedfulSoftware/hapiTutorials/issues"
   },
-  "homepage": "https://github.com/NeedfulSoftware/hapiTutorials/PortForwardingProxy#readme",
+  "homepage": "https://github.com/NeedfulSoftware/hapiTutorials/tree/master/PortForwardingProxy",
   "dependencies": {
+    "h2o2": "^5.4.0",
     "hapi": "^16.1.0"
   }
 }
