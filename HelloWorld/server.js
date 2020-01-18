@@ -12,7 +12,7 @@ async function start() {
     const server = Hapi.server({
         port: 8080,
         host: 'localhost'
-    });
+    })
 
     server.route({
         method: 'GET',
@@ -24,8 +24,8 @@ async function start() {
         }
     })
 
-    await server.start();
-    console.log('Server running on %s', server.info.uri);
+    await server.start()
+    console.log('Server running on %s', server.info.uri)
 }
 
 start()

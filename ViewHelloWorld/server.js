@@ -14,7 +14,13 @@ async function start() {
         host: 'localhost'
     })
 
-    await server.register(require('@hapi/inert'))
+    await server.register(require('@hapi/vision'))
+
+    server.views({
+        engines: {
+            html: require('handlebars')
+        }
+    })
 
     server.route({
         method: 'GET',
@@ -22,7 +28,7 @@ async function start() {
         handler: function (request, h) {
             console.log('Received request from ' + request.info.remoteAddress + ':'
                 + request.info.remotePort)
-            return h.file('hello.txt')
+            return h.view('index')
         }
     })
 
