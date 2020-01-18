@@ -1,3 +1,9 @@
+/*
+    Copyright (c) 2017-2020 Xavier Leclercq
+    Released under the MIT License
+    See https://github.com/NeedfulSoftware/hapiTutorials/blob/master/LICENSE.txt
+*/
+
 'use strict'
 
 const Hapi = require('@hapi/hapi')
