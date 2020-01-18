@@ -1,6 +1,6 @@
-# HelloWorld - A minimal hapi application
+# StaticFileHelloWorld - An example of how to serve static files
 
-A minimal server that listens for requests on port 8080.
+A minimal server that listens for requests on port 8080 and returns the contents of a file.
 
 ## Usage
 
