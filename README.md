@@ -1,10 +1,11 @@
-# hapi Tutorials
+# Needful Software - hapi Tutorials
 
 This repository contains the examples for our [hapi tutorials](http://www.needfulsoftware.com/hapi/Tutorials).
 
 ## List of examples
 
-* [HelloWorld](https://github.com/NeedfulSoftware/hapiTutorials/tree/master/HelloWorld): a very simple example of how to create a hapi server.
+* [HelloWorld](https://github.com/NeedfulSoftware/hapiTutorials/tree/master/HelloWorld): a very simple example of how
+  to create a hapi server.
 
 ## License
 
