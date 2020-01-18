@@ -16,4 +16,7 @@
     "url": "https://github.com/NeedfulSoftware/hapiTutorials/issues"
   },
   "homepage": "https://github.com/NeedfulSoftware/hapiTutorials/tree/master/HelloWorld",
+  "dependencies": {
+    "@hapi/hapi": "^19.0.5"
+  }
 }
