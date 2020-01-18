@@ -6,4 +6,6 @@ A minimal server that listens for requests on port 8080.
 
 Start the server with the command:
 
-`npm start`
+```
+npm start
+```
