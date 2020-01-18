@@ -2,6 +2,8 @@
 
 A minimal server that listens for requests on port 8080 and generates the response using a view.
 
+It uses the [@hapi/vision](https://github.com/hapijs/vision) plugin and the 
+[handlebars](https://github.com/wycats/handlebars.js) templating engine.
 ## Usage
 
 Install the necessary node modules with the command:
