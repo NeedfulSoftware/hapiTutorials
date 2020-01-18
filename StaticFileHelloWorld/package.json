@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/NeedfulSoftware/hapiTutorials/tree/master/StaticFileHelloWorld",
   "dependencies": {
-    "hapi": "^16.1.0"
+    "@hapi/hapi": "^19.0.5",
+    "@hapi/inert": "^6.0.1"
   }
 }
