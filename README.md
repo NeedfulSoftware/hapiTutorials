@@ -9,6 +9,9 @@ This repository contains the examples for our [hapi tutorials](http://www.needfu
 * [StaticFileHelloWorld](https://github.com/NeedfulSoftware/hapiTutorials/tree/master/StaticFileHelloWorld): identical
   to the [HelloWorld](https://github.com/NeedfulSoftware/hapiTutorials/tree/master/HelloWorld) example but the contents
   of the page are loaded from a file using the [@hapi/inert](https://github.com/hapijs/inert) plugin.
+* [ViewHelloWorld](https://github.com/NeedfulSoftware/hapiTutorials/tree/master/ViewHelloWorld) : identical
+  to the [HelloWorld](https://github.com/NeedfulSoftware/hapiTutorials/tree/master/HelloWorld) example but the contents
+  of the page are generated using the [@hapi/vision](https://github.com/hapijs/vision) plugin.
 
 ## License
 
