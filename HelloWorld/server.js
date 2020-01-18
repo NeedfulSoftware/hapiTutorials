@@ -1,20 +1,26 @@
-var Hapi = require('hapi')
+'use strict'
 
-var server = new Hapi.Server()
+const Hapi = require('@hapi/hapi')
 
-server.connection({ port: 8080 })
+async function start() {
 
-server.route({
-    method: 'GET',
-    path: '/',
-    handler: function (request, reply) {
-        console.log('Received request from ' + 
-            request.info.remoteAddress + ':' + 
-            request.info.remotePort)
-        return reply('Hello World!')  
-    }
-})
+    const server = Hapi.server({
+        port: 8080,
+        host: 'localhost'
+    });
 
-server.start(function (err) {
-    console.log(server.info.uri)
-})
+    server.route({
+        method: 'GET',
+        path: '/',
+        handler: function (request, h) {
+            console.log('Received request from ' + request.info.remoteAddress + ':'
+                + request.info.remotePort)
+            return 'Hello World!'
+        }
+    })
+
+    await server.start();
+    console.log('Server running on %s', server.info.uri);
+}
+
+start()
