@@ -3,7 +3,6 @@
 const Hapi = require('@hapi/hapi')
 
 async function start() {
-
     const server = Hapi.server({
         port: 8080,
         host: 'localhost'
