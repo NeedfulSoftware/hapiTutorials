@@ -6,6 +6,9 @@ This repository contains the examples for our [hapi tutorials](http://www.needfu
 
 * [HelloWorld](https://github.com/NeedfulSoftware/hapiTutorials/tree/master/HelloWorld): a very simple example of how
   to create a hapi server.
+* [StaticFileHelloWorld](https://github.com/NeedfulSoftware/hapiTutorials/tree/master/StaticFileHelloWorld): identical
+  to the [HelloWorld](https://github.com/NeedfulSoftware/hapiTutorials/tree/master/HelloWorld) example but the contents
+  of the page are loaded from a file using the [@hapi/inert](https://github.com/hapijs/inert) plugin.
 
 ## License
 
