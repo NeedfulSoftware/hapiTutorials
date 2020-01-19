@@ -20,9 +20,9 @@ async function start() {
         handler: function (request, h) {
             console.log('Received request from ' + request.info.remoteAddress + ':'
                 + request.info.remotePort)
-            return new Promise((resolve, reject) => {
-                resolve('Hello World from async handler!');
-            });
+            return new Promise(function(resolve, reject) {
+                resolve('Hello World from async handler!')
+            })
         }
     })
 

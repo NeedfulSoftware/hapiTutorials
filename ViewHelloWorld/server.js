@@ -25,7 +25,7 @@ async function start() {
     server.route({
         method: 'GET',
         path: '/',
-        handler: function (request, h) {
+        handler: function(request, h) {
             console.log('Received request from ' + request.info.remoteAddress + ':'
                 + request.info.remotePort)
             return h.view('index')
