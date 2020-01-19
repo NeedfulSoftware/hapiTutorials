@@ -13,6 +13,9 @@ This repository contains the examples for our [hapi tutorials](http://www.needfu
   to the [HelloWorld](https://github.com/NeedfulSoftware/hapiTutorials/tree/master/HelloWorld) example but the contents
   of the page are generated using the [@hapi/vision](https://github.com/hapijs/vision) plugin and the 
   [handlebars](https://github.com/wycats/handlebars.js) templating engine.
+* [AsyncHelloWorld](https://github.com/NeedfulSoftware/hapiTutorials/tree/master/AsyncHelloWorld): identical
+  to the [HelloWorld](https://github.com/NeedfulSoftware/hapiTutorials/tree/master/HelloWorld) example but the contents
+  of the page are returned as a promise.
 
 ## License
 
