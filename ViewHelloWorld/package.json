@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/NeedfulSoftware/hapiTutorials/tree/master/HelloWorld",
   "dependencies": {
-    "@hapi/hapi": "^19.0.5",
+    "@hapi/hapi": "^19.1.1",
     "@hapi/vision": "^6.0.0",
     "handlebars": "^4.7.2"
   }
